@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
-from pytgcalls.types.input_stream import InputAudioStream
+from pytgcalls.types import InputAudioStream
 
 vc = PyTgCalls(bot)
 from config import *
