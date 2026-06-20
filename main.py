@@ -1,8 +1,5 @@
 from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
-from pytgcalls import PyTgCalls
-
-vc = PyTgCalls(bot)
 from config import *
 
 bot = Client(
