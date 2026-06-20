@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y ffmpeg git
 
 COPY requirements.txt .
 
-RUN pip install --no-cache-dir py-tgcalls
+RUN pip install pyrogram tgcrypto python-dotenv py-tgcalls
 
 COPY . .
 
